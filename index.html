@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHUBHAM YADAV - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d865533db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                &nbsp;&nbsp;&nbsp;Data Analyst
+                <h1>&nbsp;Hi I'm<span>&nbsp;Shubham Yadav</span><br>&nbsp;&nbsp;from<span>&nbsp;IILM</span></h1>
+
+            </div>
+        </div>
+
+    </div>
+    <!----------------ABOUT_SECTION----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br><br>
+                    <p>I am currently studying in IILM UNIVERSITY GREATER NOIDA , pursuing B.tech computer science and engaging in multiple co curricular and skill development activities like participation in GDSC , debates , and event management activities.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analysis</span><br>quantitative analysis for finance related firms</li>
+                            <li><span>Machine Learning Models</span><br>recommendation systems for web applications</li>
+                            <li><span>Web Development</span><br>front end developer , website , web design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Quant Intern at didgital stock market consultancy firm "StockBrain"</li>
+                            <li><span>2022</span><br>Web design and web developer for startup "StressPassers"</li>
+                            <li><span>2020-2021</span><br>Student affeliate at foreign based educatinal firm "Alphabet Education"</li>
+                            <li><span>2018-2019</span><br>National Level Debates @BITS_pilani</li>
+                            <li><span>2017-2019</span><br>NCC A&B certificate holder</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduation</span><br>IILM UNIVERSITY, GREATER NOIDA<br>currently pursuing btech computer science & engineering 2021-2025</li>
+                            <li><span>Schooling</span><br>Sainik School Kunjpura- Ministry Of Defence of INDIA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------SERVICES------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in Full Stack Web Development along with UI/UX design for fully functional web apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>Event Conduct & Management</h2>
+                    <p>Wilingly engage in events and workshops and hosting and anchoring.<br>Event management, event outreach, engaging sponsors, speakers</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>AI-ML</h2>
+                    <p> A Professional in AI-ML tools for predictive analysis & automation for firms, individuals related to IT, SALES, Digital Marketing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------------CONTACT----------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <br>
+                    <p><i class="fa-solid fa-envelope"></i>&nbsp;shubhamyadav69054337@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>&nbsp;9990202325</p><br><br>
+                    &nbsp;Connect with me &nbsp;&nbsp;<i class="fa-solid fa-sort-down"></i>
+                    <div class="social-icons">
+                        <a href="https://github.com/shubhamyadav1107"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shubham-yadav-a40789257"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/_i__drive?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.hackerrank.com/profile/shubhamyadav6901"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <br>
+                    <a href=".vscode\Shubham Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shubham. Made with &nbsp;<i class="fa-solid fa-code"></i>&nbsp;Visual Studio Code</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <form name="submit-to-google-sheet">
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxWgKdmMeWXS_lqcjIeWzH-hQyR6kpu7tScloUhx4Scvp6x3n1F-0WIM_CHCtd7WZmZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

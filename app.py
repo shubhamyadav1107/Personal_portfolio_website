@@ -16,4 +16,4 @@ html_content = load_html(html_file_path)
 st.markdown(html_content, unsafe_allow_html=True)
 
 # Link to CSS
-st.markdown("<style>{}</style>".format(open("style.css").read()), unsafe_allow_html=True)
+st.markdown("<style>{}</style>".format(open("styles.css").read()), unsafe_allow_html=True)
